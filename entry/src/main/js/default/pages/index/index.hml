@@ -1,0 +1,20 @@
+<swiper class="container" index="{{index}}" onswipe="swipeEvent" vertical="true">
+    <div class="first-page-content">
+        <text class="title">
+            Welcome to app!
+        </text>
+    </div>
+    <div class = "swiper-item first-page-content">
+        <text class="title">
+            Location: {{latlon}}
+        </text>
+        <text class="title">
+            Accuracy: {{accuracy}}
+        </text>
+        <text class="title">
+            Battery: {{(battery*100).toFixed(2)}}
+        </text>
+        <input type="buttonMsg" class="btn" value="Send Message" onclick="sendMessage"/>
+        <input type="buttonFile" class="btn" value="Send File" onclick="sendFile"/>
+    </div>
+</swiper>

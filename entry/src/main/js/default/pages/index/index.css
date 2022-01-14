@@ -1,0 +1,52 @@
+.first-page-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 454px;
+    height: 454px;
+    background-color: white;
+    font-size: 38px;
+}
+.container {
+    left: 0px;
+    top: 0px;
+    width: 454px;
+    height: 454px;
+}
+.swiper-item {
+    width: 454px;
+    height: 454px;
+    justify-content: center;
+    align-items: center;
+}
+.second-page{
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 454px;
+    height: 454px;
+    font-size: 38px;
+}
+.title {
+    text-align: center;
+    margin: 10px;
+    color: black;
+}
+.msg {
+    text-align: center;
+    color: black;
+    margin: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.btn {
+    border-radius: 8px;
+    width: 180px;
+    margin-top: 8px;
+    background-color: darkred;
+}
